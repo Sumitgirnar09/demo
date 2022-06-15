@@ -1,0 +1,26 @@
+{% extends 'home/base.html' %}
+{% block title %}Coep Online Test Portal {% endblock %}
+{% block css %}
+.btn-lg{
+display:block,
+}
+</div>
+{% endblock %}
+{% block body %}
+
+<img src="https://upload.wikimedia.org/wikipedia/en/f/f0/College_of_Engineering%2C_Pune_logo.jpg "  style="border-radius: 10px; display: block; margin: 4px auto;" alt="Coep image"  />
+<section id="section-jumbotron" class="jumbotron jumbotron-fluid d-flex justify-content-center align-items-center">
+  <div class="container text-center">
+    <h1 style="color: white">College Of Engineering Pune</h1>
+     
+    <h3 style="color: white">Start Your Journey Here:</h3>
+    <a href="/student" class="btn btn-lg btn-info" style="padding-right: 35px; margin-bottom: 30px width:30px; "><i
+        class="fa fa-user-plus" aria-hidden="true"></i>Student Login</a><br><br>
+    <a href="/teacher" class="btn btn-lg btn-info" style="padding-right: 35px width:30px;"><i class="fa fa-user-plus "
+        aria-hidden="true"></i>Teacher Login</a>
+
+    <br><br><br>
+  </div>
+</section>
+
+{% endblock %}
